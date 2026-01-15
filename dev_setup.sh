@@ -15,4 +15,4 @@ python setup.py install
 cd ../submodules/tetra-triangulation
 cmake .
 make -j
-pip install -e .
+python setup.py install
