@@ -15,4 +15,4 @@ python setup.py install
 cd ../submodules/tetra-triangulation
 cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.5 .
 make -j
-python setup.py install
+pip install .
