@@ -132,5 +132,5 @@ setup(
     python_requires=">=3.7",
     install_requires=["trimesh>=3.20.2"],
     packages=find_packages(),
-    package_data={"tetranerf.utils.extension": ["py.typed", "**/*.pyi"]},
+    package_data={"tetranerf.utils.extension": ["py.typed", "**/*.pyi", "**/*.so", "**/*.pyd", "*.so", "*.pyd"]},
 )
