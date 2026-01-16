@@ -13,6 +13,6 @@ cd ../simple-knn
 python setup.py install
 
 cd ../submodules/tetra-triangulation
-cmake .
+cmake -DCMAKE_POLICY_VERSION_MINIMUM=3.5 .
 make -j
 python setup.py install
